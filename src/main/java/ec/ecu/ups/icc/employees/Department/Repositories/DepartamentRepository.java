@@ -11,5 +11,5 @@ import java.util.Optional;
 public interface DepartamentRepository extends JpaRepository<Departament , Long> {
     
 
-    Optional findById(Long id);
+    Optional<Departament> findById(Long id);
 }

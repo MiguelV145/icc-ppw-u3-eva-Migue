@@ -12,7 +12,7 @@ import java.util.Optional;
 public interface CompanyRepository extends JpaRepository <Company, Long> {
 
 
-    Optional findById(Long id);
+    Optional<Company> findById(Long id);
 
     
     
